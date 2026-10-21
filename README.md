@@ -55,7 +55,7 @@ When a learner constructs a word or phrase, `checkBuiltAnswer()` diagnoses the i
 
 In accordance with the **NLnet Foundation Generative AI Policy (v1.1, January 26, 2026)**:
 - **100% Deterministic Linguistic Core:** Every grammatical form, boundary merger, and diagnostic explanation in `qazaq-thought-core` is computed by explicit, verifiable phonological and morphological rules. Generative AI is **never** used to synthesize, guess, or check learner answers.
-- **Human Authorship:** Linguistic engineering, architecture, and source code are authored by **Nuriya Mirsalimova** (Almaty, Kazakhstan).
+- **Human Authorship:** Linguistic engineering, architecture, and source code are authored by **Nuriya Mirsalimova** (Kazakhstan).
 
 ---
 
