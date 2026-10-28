@@ -78,7 +78,7 @@ export function isVoicedOrVowelEnd(cls: StemEndingClass): boolean {
 }
 
 /**
- * Цвет морфемного кусочка по ряду гласных (К14, К28):
+ * Цвет кусочка по системе источников (К14, К28):
  * - red   — твёрдый ряд
  * - green — мягкий ряд
  * - amber — смешанные суффиксы (-у, -нікі/-дікі/-тікі, -мен/-бен/-пен)
@@ -253,7 +253,7 @@ export function pickPossessiveSuffix(
   stem: string,
   person: PersonId,
   rowOverride?: VowelRow,
-  /** Для тем 83–88, 93–102 (желание/необходимость/разрешение): у сендер/сіздер/олар всегда лар/лер + ың/ыңыз/ы */
+  /** В желании, необходимости и личной временной форме добавляет множественность также у олар; вариант выбирается по последнему звуку основы. */
   afterDesireOrInfinitive = false
 ): {
   suffix: string;
@@ -327,11 +327,7 @@ export function pickPossessiveSuffix(
   }
 
   if (person === 'sender') {
-    const pluralPart = afterDesireOrInfinitive
-      ? row === 'hard'
-        ? 'лар'
-        : 'лер'
-      : pickPluralSuffix(stem, row).suffix;
+    const pluralPart = pickPluralSuffix(stem, row).suffix;
     const possPart = row === 'hard' ? 'ың' : 'ің';
     return {
       suffix: pluralPart + possPart,
@@ -341,11 +337,7 @@ export function pickPossessiveSuffix(
   }
 
   if (person === 'sizder') {
-    const pluralPart = afterDesireOrInfinitive
-      ? row === 'hard'
-        ? 'лар'
-        : 'лер'
-      : pickPluralSuffix(stem, row).suffix;
+    const pluralPart = pickPluralSuffix(stem, row).suffix;
     const possPart = row === 'hard' ? 'ыңыз' : 'іңіз';
     return {
       suffix: pluralPart + possPart,
@@ -355,7 +347,7 @@ export function pickPossessiveSuffix(
   }
 
   if ((person === 'olar' || person === 'ol_kisiler') && afterDesireOrInfinitive) {
-    const pluralPart = row === 'hard' ? 'лар' : 'лер';
+    const pluralPart = pickPluralSuffix(stem, row).suffix;
     const possPart = row === 'hard' ? 'ы' : 'і';
     return {
       suffix: pluralPart + possPart,
