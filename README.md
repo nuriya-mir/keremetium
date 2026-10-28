@@ -26,13 +26,9 @@ Instead of organizing the trainer around textbook chapters (*"Lesson 14: The Ins
 7. **Qualities & comparison** (*качества и сравнение* — what something is like and how it compares to others);
 8. **Communication with others** (*общение с другим человеком* — greeting, asking, requesting, thanking, apologizing, agreeing).
 
-### Why a Deterministic Trainer Instead of Chatting with an AI?
+### How Keremetium Works as a Whole System
 
-A learner can ask a conversational AI to translate a phrase or explain a rule. However:
-1. In a chat, the learner has to act as their own methodologist — deciding what to ask next, which related form to compare, and what to practice later.
-2. Large language models frequently hallucinate Kazakh vowel/consonant harmony and invent non-existent suffix chains.
-
-In **Keremetium**, the whole-language map, interactive parameter changes, visual assembly schemas, side-by-side meaning comparisons, plain-language explanations, and practice series are built into a **100% deterministic linguistic engine**.
+Instead of forcing the learner to piece together rules from separate textbook chapters, **Keremetium** combines the entire language map, interactive parameter changes (person, politeness, tense, negation, quantity, spatial relation), visual assembly schemas, side-by-side meaning comparisons, plain-language explanations, and 12-item practice series inside a single **100% deterministic linguistic engine**.
 
 ---
 
