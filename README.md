@@ -4,6 +4,7 @@
 *(Открытый тренажёр казахского языка: от смысла и мысли — к живой фразе)*
 
 - **Author:** Nuriya Mirsalimova (Founder of [armysyz.kz](https://armysyz.kz))
+- **Domain:** [keremetium.kz](https://keremetium.kz)
 - **License:** MIT / Apache-2.0 (Dual-licensed Open Source)
 - **Language:** TypeScript (Offline-first, works directly in the browser without a server)
 
