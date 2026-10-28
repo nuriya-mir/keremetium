@@ -30,7 +30,7 @@ That is how I identified **8 meaning directions**:
 
 These eight directions give me a whole view of the language. I see the overall map and can gradually explore its details. A specific phrase gets its own place, and its links with other phrases become visible. Directions can intersect: desire, action, time, and feeling can meet inside a single thought.
 
-This map became the foundation of **Keremetium**. In the trainer, you can look at a phrase, change the person, time, or meaning, compare options, and see what happens to how the phrase is built. For example, *"I wanted to buy a book"* reports a wish, but says nothing yet about whether the purchase actually happened. There are no textbook rules here that you have to memorize in isolation first — the explanation is tied to a specific thought and helps you see how it is put together. You can look, change, compare, read the explanation, and try building the phrase yourself.
+This map became the foundation of **Keremetium**. In the trainer, you can look at a phrase, change the person, time, or meaning, compare options, and see what happens to how the phrase is built. There are no textbook rules here that you have to memorize in isolation first — the explanation is tied to a specific thought and helps you see how it is put together. You can look, change, compare, read the explanation, and try building the phrase yourself.
 
 For me, **Keremetium** is that miracle given the shape of a tool. I have not mastered Kazakh yet myself — I created Keremetium so that I would have the opportunity to learn in a way that makes sense to me. And it may turn out to be useful to other people who also need to see the whole first, understand the connections, and then learn to use the language through their own actions.
 
